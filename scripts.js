@@ -17,7 +17,7 @@ const engineUrls = {
   google: "https://www.google.com/search?q={query}",
   startpage: "https://www.startpage.com/search?q={query}",
   youtube: "https://www.youtube.com/results?q={query}",
-  qwant: "https://www.qwant.com/?s={query}",
+  qwant: "https://www.qwant.com?q=%s&client=opensearch",
 }
 
 const isWebUrl = value => {
